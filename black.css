@@ -1,0 +1,49 @@
+.container1{
+    border: 1px solid black;
+    width: 75%;
+    margin: 0 auto;
+    text-align: center
+    
+}
+
+.flex-blackjack-row1, .flex-blackjack-row{
+    display: flex;
+    border: 1px solid blueviolet;
+    color: floralwhite;
+    padding: 10px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.flex-blackjack-row1,.flex-blackjack-row2{
+    background:url('https://static1.bigstockphoto.com/2/9/2/large1500/292221016.jpg')
+}
+
+.flex-blackjack-row1 div{
+    border: 1px solid blueviolet;
+    padding: 10px;
+    flex: 1;
+    align-items: center;
+    height: 360px;
+}
+
+.flex-blackjack-row1  img{
+    width: 25%;
+    padding: 10px;
+}
+
+.flex-blackjack-row2 button{
+    border: solid blueviolet;
+    padding:10px;
+}
+
+table,th,td{
+    padding: 10px;
+    border:1px solid black;
+}
+
+.flex-blackjack-row2 div{
+    border: blueviolet;
+    padding: 10px;
+}
